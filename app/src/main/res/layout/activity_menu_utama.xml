@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuUtama"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:background="#4a9586"
+                android:textAlignment="viewEnd"
+                android:text=""
+                android:id="@+id/outputView"
+                />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/logo_gojek"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logo_goride"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/goRide"
+                />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logo_gofood"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/goFood"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logo_gosend"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/goSend"
+                />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logo_gopay"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/goPay"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
